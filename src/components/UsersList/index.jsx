@@ -14,8 +14,8 @@ const UsersList = ({ users }) => {
   };
 
   return (
-    <div>
-      <h2 className="text-black text-3xl mb-3">Users List</h2>
+    <div className="border border-gray-500 rounded-2xl min-w-80 p-2">
+      <h2 className="text-3xl mb-3 text-center font-semibold">Users List</h2>
       <div>
         {sortedUsers.map((user, index) => (
           <div key={`${user.name}-${user.age}`} className="mb-2 flex">
