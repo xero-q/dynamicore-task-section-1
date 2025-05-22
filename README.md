@@ -4,12 +4,12 @@
 
 - Install dependencies
 
-```
+```bash
 npm install
 ```
 
-- Run the app
+- Start the app
 
-```
+```bash
 npm run dev
 ```
